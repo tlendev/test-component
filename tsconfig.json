@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "types",
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "Node",
+        "emitDeclarationOnly": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+        "src/**/*.test.tsx",
+        "src/**/*.stories.tsx"
+    ],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
